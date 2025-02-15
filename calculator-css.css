@@ -1,0 +1,68 @@
+.box{
+  background-color: transparent;
+}
+.calculator-outerbox{
+  display: inline-block;
+  margin-top: 10px;
+  height: 255;
+  border-radius: 5px;
+  width: 150;
+  background-color: rgb(12, 11, 11);
+}
+.input-box{
+  height: 30px;
+  width: 120px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: white;
+  margin: 10px;
+}
+.button-design{
+  height: 25px;
+  width: 25px;
+  border: none;
+  color: white;
+  background-color: rgb(63, 60, 60);
+  border-radius: 100%;
+  display: inline-block;
+  font-weight: bold;
+}
+.ac-button,
+.percentage-button,
+.del-button{
+  color: black;
+  background-color: rgba(133, 130, 130, 0.966);
+}
+.div-button,
+.mul-button,
+.sub-button,
+.add-button,
+.equal-button{
+  background-color: rgb(250, 165, 9);
+}
+.backspace-key{
+  height: 13px;
+  width: 13px;
+  border-radius: 100%;
+}
+.calculator-content-box{
+  height: 170px;
+  width: 130px;
+  display: grid;
+  grid-template-rows: 25px 25px 25px 25px 25px;
+  padding: 0px 0px 10px 10px;
+  justify-content: space-between;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.number-row-1,
+.number-row-2,
+.number-row-3,
+.number-row-4,
+.number-row-5{
+  height: 175px;
+  width: 120px;
+  display: grid;
+  grid-template-columns: 25px 25px 25px 25px;
+  justify-content: space-between;
+}

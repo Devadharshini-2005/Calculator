@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="calculator-css.css">
+  </head>
+  <boby>
+    <center class="box">
+      <h1>calculator</h1>
+    <main class="calculator-outerbox">
+      <nav class="input-output-box">
+        <input class="js-input-box input-box">
+      </nav>
+      <nav class="calculator-content-box">
+        <div class="number-row-1">
+          <div class="row-1-column-1">
+            <button class="button-design ac-button" onclick="calculate('AC');">AC</button>
+          </div>
+          <div class="row-1-column-2">
+            <button class="button-design percentage-button" onclick="calculate('%');">%</button>
+          </div>
+          <div class="row-1-column-3">
+            <button class="button-design del-button" onclick="calculate('del');"><-</button>
+          </div>
+          <div class="row-1-column-4">
+            <button class="button-design div-button" onclick="calculate('/');">/</button>
+          </div>
+        </div>
+        <div class="number-row-2">
+          <div class="row-2-column-1">
+            <button class="button-design" onclick="calculate('7');">7</button>
+          </div>
+          <div class="row-2-column-2">
+            <button class="button-design" onclick="calculate('8');">8</button>
+          </div>
+          <div class="row-2-column-3">
+            <button class="button-design" onclick="calculate('9');">9</button>
+          </div>
+          <div class="row-2-column-4">
+            <button class="button-design mul-button" onclick="calculate('*');">*</button>
+          </div>
+        </div>
+        <div class="number-row-3">
+          <div class="row-3-column-1">
+            <button class="button-design" onclick="calculate('4');">4</button>
+          </div>
+          <div class="row-3-column-2">
+            <button class="button-design" onclick="calculate('5');">5</button>
+          </div>
+          <div class="row-3-column-3">
+            <button class="button-design" onclick="calculate('6');">6</button>
+          </div>
+          <div class="row-3-column-4">
+            <button class="button-design sub-button" onclick="calculate('-');">-</button>
+          </div>
+        </div>
+        <div class="number-row-4">
+          <div class="row-4-column-1">
+            <button class="button-design" onclick="calculate('1');">1</button>
+          </div>
+          <div class="row-4-column-2">
+            <button class="button-design" onclick="calculate('2');">2</button>
+          </div>
+          <div class="row-4-column-3">
+            <button class="button-design" onclick="calculate('3');">3</button>
+          </div>
+          <div class="row-4-column-4">
+            <button class="button-design add-button" onclick="calculate('+');">+</button>
+          </div>
+        </div>
+        <div class="number-row-5">
+          <div class="row-5-column-1">
+            <button class="button-design" onclick="calculate('00');">00</button>
+          </div>
+          <div class="row-5-column-2">
+            <button class="button-design" onclick="calculate('0');">0</button>
+          </div>
+          <div class="row-5-column-3">
+            <button class="button-design" onclick="calculate('.');">.</button>
+          </div>
+          <div class="row-5-column-4">
+            <button class="button-design equal-button" onclick="calculate('=');">=</button>
+          </div>
+        </div>
+      </nav>
+    </main>
+  </center>
+  <script src="calculator-js.js"></script>
+  </boby>
+</html>
